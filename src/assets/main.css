@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --linear-color: linear-gradient(
+    94.38deg,
+    rgba(46, 46, 46, 0.5) 11.09%,
+    rgba(22, 22, 22, 0.5) 96.98%
+  );
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: 'Playfair Display', serif;
+  padding: 20px 0 0;
+}
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
